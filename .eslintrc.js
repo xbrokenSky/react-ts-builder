@@ -147,7 +147,10 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': [0],
         'implicit-arrow-linebreak': ['off'],
         'no-use-before-define': [0],
-        'no-shadow': [1],
+        'no-shadow': [0],
+        '@typescript-eslint/no-shadow': [1],
+        'operator-linebreak': [1],
+        'no-restricted-exports': [1, { restrictedNamedExports: ['foo'] }],
     },
     extends: ['airbnb', 'plugin:@typescript-eslint/recommended'],
 };

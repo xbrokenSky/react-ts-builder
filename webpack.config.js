@@ -14,7 +14,7 @@ module.exports = (env, option) => {
 
     return {
         entry: ['./src/scripts/index.ts', './src/styles/styles.scss'],
-        target: ['web', 'es5'],
+        target: ['web', 'es6'],
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: './scripts/index.js',
